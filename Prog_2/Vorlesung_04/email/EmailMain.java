@@ -33,8 +33,8 @@ public class EmailMain {
 //		String regex = "\\s[Aa][a-z]*[d]\\s";							// wort fängt mit a an und endet mit d...
 //		String regex = "(\\s|^)[Aa]\\w*[d](\\s|[.,?!:;])";				// ...vor dem wort whitespace ODER nicht und am Ende whitespace ODER .,?!:;
 //		String regex = "(Pano)";
-		String regex = "(\\s|^)[Ss]\\w*[e](\\s|[.,?!:;])";
-		
+//		String regex = "(\\s|^)[Ss]\\w*[e](\\s|[.,?!:;])";
+		String regex = "(([0-1][0-9])|([2][0-3])):[0-5][0-9]:[0-5][0-9].*";
 		
 		Pattern pattern = Pattern.compile(regex);						//Muster zu übersetzung des regulären Ausdrucks
 		
