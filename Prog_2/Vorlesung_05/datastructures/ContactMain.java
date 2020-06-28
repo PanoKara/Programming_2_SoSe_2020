@@ -86,7 +86,7 @@ public class ContactMain {
 	
 		
 //		FileIO Aufgaben Variante - 2.2
-		File file2 = new File ("Vorlesung_05\\datastructures\\Bla.txt");
+		File file2 = new File ("Vorlesung_05\\datastructures\\Happy.txt");
 		if(file.exists()) {
 			System.out.println("die Datei existiert");
 		} else {
@@ -101,7 +101,7 @@ public class ContactMain {
 		try {
 			FileWriter fileWriter = new FileWriter(file2);
 			PrintWriter writer = new PrintWriter(fileWriter);
-				writer.write("We  don't make mistaakes, these are happy little accidents - Rob Ross");
+				writer.write("We don't make mistakes, these are happy little accidents - Rob Ross");
 				writer.close();
 		} catch (IOException e) {
 			e.printStackTrace();
